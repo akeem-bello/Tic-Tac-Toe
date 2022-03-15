@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+
+    <body>
+        <div id="main">
+            <h1>TIC TAC TOE</h1>
+            <p id="p1">First Player starts as 
+                <b>Player X</b><br>while<br>Second 
+                Player as <b>Player O</b>
+            </p>
+            <br>
+
+            <p id="display"></p>
+            <br>
+
+            <input type="text" id="box1" onclick="value_box1(); gameOutcome();">
+       
+            <input type="text" id="box2" onclick="value_box2(); gameOutcome();">
+       
+            <input type="text" id="box3" onclick="value_box3(); gameOutcome();">
+            <br><br>
+       
+            <input type="text" id="box4" onclick="value_box4(); gameOutcome();">
+                   
+            <input type="text" id="box5" onclick="value_box5(); gameOutcome();">
+       
+            <input type="text" id="box6" onclick="value_box6(); gameOutcome();">
+            <br><br>
+       
+            <input type="text" id="box7" onclick="value_box7(); gameOutcome();">
+       
+            <input type="text" id="box8" onclick="value_box8();gameOutcome();">
+       
+            <input type="text" id="box9" onclick="value_box9();gameOutcome();">
+            <br><br><br>
+
+            <button id="btn" onclick="gameRestart()">RESTART</button>
+            <br><br>
+
+            <p id="p2"><strong>© 2022. Developed by AkeemBello</strong></p>
+        
+            
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
